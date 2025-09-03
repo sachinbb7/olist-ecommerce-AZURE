@@ -1,0 +1,22 @@
+{
+	"name": "github_customer",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServer3",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "olist-ecommerce-AZURE/refs/heads/main/Data/olist_customers_dataset.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
