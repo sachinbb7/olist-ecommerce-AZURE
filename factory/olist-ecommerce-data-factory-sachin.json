@@ -1,0 +1,9 @@
+{
+	"name": "olist-ecommerce-data-factory-sachin",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "888ae0bd-fe5a-4de4-84aa-4cfddbeed4af",
+		"tenantId": "3e7a60e7-389d-4de9-8178-93c9598c0263"
+	}
+}
